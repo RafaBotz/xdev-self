@@ -1,4 +1,4 @@
-// SC BY X - Dev Team
+// SC BY X - Rafz Team
 // JANGAN DIPERJUAL BELIKAN !
 
 const
@@ -68,9 +68,9 @@ let bancht = JSON.parse(fs.readFileSync('./database/banchat.json'))
 banChats = false
 offline = false
 targetpc = '0'
-ownerNumber = ["62895619083555@s.whatsapp.net","6287817533783@s.whatsapp.net","6285283427860@s.whatsapp.net","6282290559350@s.whatsapp.net","628983583288@s.whatsapp.net","628886234378@s.whatsapp.net"]
-fake = '𝑪𝑹𝑬𝑨𝑻𝑶𝑹 𝑩𝑶𝑻\n𝑿 - 𝑫𝒆𝒗 𝑻𝒆𝒂𝒎'
-fake1 = '𝑿 - 𝑫𝒆𝒗 𝑻𝒆𝒂𝒎'
+ownerNumber = ["6285336225266@s.whatsapp.net"]
+fake = '𝑪𝑹𝑬𝑨𝑻𝑶𝑹 𝑩𝑶𝑻\n𝑿 - Rafz 𝑻𝒆𝒂𝒎'
+fake1 = '𝑿 - Rafz 𝑻𝒆𝒂𝒎'
 numbernye = '0'
 waktu = '-'
 alasan = '-'
@@ -97,7 +97,7 @@ var ucapanWaktu = 'Selamat pagi 🌇'
 if(time2 < "06:00:00"){
 var ucapanWaktu = 'Selamat pagi 🌅'                                       }
 //=================================================//
-module.exports = xdev = async (xdev, dev) => {
+module.exports = Rafz = async (xdev, dev) => {
 	try {
         if (!dev.hasNewMessage) return
         dev = dev.messages.all()[0]
